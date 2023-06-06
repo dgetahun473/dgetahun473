@@ -1,0 +1,234 @@
+
+/* Animate the logo */
+.header .logo {
+  animation: logo-animation 1s linear infinite;
+}
+
+@keyframes logo-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animate the navigation bar */
+.header .nav {
+  animation: nav-animation 0.5s linear infinite;
+}
+
+@keyframes nav-animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Animate the testimonials */
+.testimonials .quote {
+  animation: quote-animation 1s linear infinite;
+}
+
+@keyframes quote-animation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Add a border to the contact form */
+.contact-form {
+  border: 1px solid black;
+}
+
+/* Add some padding to the contact form input fields */
+.contact-form input {
+  padding: 10px;
+}
+
+/* Add some margin to the contact form button */
+.contact-form button {
+  margin-top: 10px;
+}
+/* Animations */
+
+.animated {
+  animation: 5s opacity infinite;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Styles */
+
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #555555;
+}
+
+/* Specific elements */
+
+.header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1em;
+}
+
+.main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.section {
+  margin-bottom: 1em;
+}
+
+.h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li {
+  margin-bottom: 1em;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+/* General */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Main */
+main {
+  margin-top: 20px;
+}
+
+/* Section */
+section {
+  margin-bottom: 20px;
+}
+
+/* h1 */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* h2 */
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* p */
+p {
+  margin-bottom: 10px;
+}
+
+/* ul */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* li */
+li {
+  margin-bottom: 10px;
+}
+
+/* a */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Animation */
+.animated {
+  animation: move 1s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 10px;
+  }
+}
